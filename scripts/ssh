@@ -1,0 +1,5 @@
+#!/bin/bash
+# Start the SSH service and do a persitent task to
+# keep the connection open.
+service ssh start && \
+    dmesg -w
